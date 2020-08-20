@@ -36,3 +36,88 @@
     transform: rotate(360deg);
   }
 }
+
+
+.home  h1 {
+  padding-bottom: 230px;
+  font-size: 70px;;
+  color:yellow;
+  
+}
+.link {
+  margin-top: 150px;
+  color: #fff;
+  background-color: #333;
+  padding: 10px;
+  border: 2px solid #000;
+}
+
+
+body {
+ background-image: url(bg.png);
+ background-size: cover;
+  font-family: Helvetica, sans-serif;
+}
+
+a {
+  color: #fff;
+}
+
+.registry {
+  color: #fff;
+}
+.registry h1 {
+  font-size: 70px;
+  color:yellow;
+}
+.foot {
+  color: lightseagreen;
+  align-content: flex-end;
+}
+.registry form {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.registry form input[type="submit"] {
+  color: #fff;
+  background-color: #333;
+  padding: 10px;
+  border: 2px solid #000;
+}
+
+.registry form input[type="text"] {
+  padding: 10px;
+  border: 2px solid #000;
+}
+
+ul {
+  margin-top: 50px;
+  list-style-type: square;
+  max-width: 400px;
+  margin: auto;
+}
+
+ul li {
+  display: flex;
+  justify-content: space-between;
+  background-color: brown;
+  padding: 10px;
+  border: 2px solid #000;
+  align-items: center;
+}
+
+.remove{
+  
+  color: #fff;
+  background-color:red;
+  padding: 10px;
+  border: 2px solid #000;
+}
+
+ul li button {
+  color: #fff;
+  background-color: #333;
+  padding: 10px;
+  border: 2px solid #000;
+}
